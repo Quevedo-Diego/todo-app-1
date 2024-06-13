@@ -1,0 +1,75 @@
+body {
+    background-color: #312f2f; /* Gris oscuro para el fondo de la página */
+    color: #333; /* Color de texto oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #84c884; /* Verde claro para el fondo del contenedor */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  h1 {
+    color: #00796b; /* Verde oscuro para el título */
+  }
+  
+  input[type="text"] {
+    border: 2px solid #00796b; /* Borde verde oscuro para el campo de entrada */
+    padding: 10px;
+    width: calc(100% - 24px); /* Ajuste de ancho para padding y borde */
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-group .btn {
+    background-color: #00796b; /* Verde oscuro para los botones */
+    color: #fff;
+    border: none;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+  
+  .btn-group .btn:hover {
+    background-color: #004d40; /* Verde más oscuro al pasar el mouse */
+  }
+  
+  .list-group-item {
+    background-color: #ffffff; /* Blanco para las tareas */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item button {
+    background-color: #e57373; /* Rojo claro para el botón de eliminar */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .todo-item button:hover {
+    background-color: #d32f2f; /* Rojo más oscuro al pasar el mouse */
+  }
+  
