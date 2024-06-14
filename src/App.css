@@ -1,42 +1,74 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  background-color: #312f2f; /* Gris oscuro para el fondo de la página */
+  color: #333; /* Color de texto oscuro */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container {
+  background-color: #84c884; /* Verde claro para el fondo del contenedor */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color: #00796b; /* Verde oscuro para el título */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+input[type="text"] {
+  border: 2px solid #00796b; /* Borde verde oscuro para el campo de entrada */
+  padding: 10px;
+  width: calc(100% - 24px); 
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
-.card {
-  padding: 2em;
+.btn-group .btn {
+  background-color: #00796b; /* Verde oscuro para los botones */
+  color: #fff;
+  border: none;
+  margin-right: 5px;
+  border-radius: 4px;
 }
 
-.read-the-docs {
-  color: #888;
+.btn-group .btn:hover {
+  background-color: #004d40; /* Verde más oscuro al pasar el mouse */
+}
+
+.list-group-item {
+  background-color: #ffffff; /* Blanco para las tareas */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-item button {
+  background-color: #e57373; /* Rojo claro para el botón de eliminar */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.todo-item button:hover {
+  background-color: #d32f2f; /* Rojo más oscuro al pasar el mouse */
 }
